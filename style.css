@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background: linear-gradient(to right, #ffd89b, #19547b);
+    align-items: center;
+    justify-content: center;
+}
+
+.player{
+    position: static;
+}
+
+.player_video{
+    width: 68%;
+    cursor: pointer;
+}
+
+.player_button{
+    background: none;
+    border: 1px solid black;
+    cursor: pointer;
+    width: 50px;
+    padding: 3px;
+    margin: 10px 42px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.player_button:hover{
+    transform: scale(1.1);
+    transition: 0.5s cubic-bezier(0.49, -1.12, 0.19, 4.11);
+}
+
+.player_controls{
+    background: whitesmoke;
+    display: flex;
+    width: 68%;
+    margin: 3px 0px;
+}
+
+input{
+    margin: 0px 42px;
+}
